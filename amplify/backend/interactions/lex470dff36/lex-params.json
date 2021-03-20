@@ -1,0 +1,37 @@
+{
+    "resourceName": "lex470dff36",
+    "botName": "guatemalabot",
+    "intents": [
+        {
+            "cancelMessage": "okeymagay",
+            "confirmationQuestion": "deveritas quiere el {pais}",
+            "slots": [
+                {
+                    "name": "ciudad",
+                    "type": "AMAZON.AT_CITY",
+                    "prompt": "pais",
+                    "required": false,
+                    "customType": false
+                },
+                {
+                    "name": "pais",
+                    "type": "AMAZON.Country",
+                    "prompt": "what",
+                    "required": false,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "Pedir una Pizza",
+                "Rentar un Auto",
+                "Reservar un Vuelo",
+                "hi"
+            ],
+            "intentName": "holatutis",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": false,
+    "sessionTimeout": "1",
+    "coppa": false
+}

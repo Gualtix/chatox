@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatox-dev-161609-authRole",
+      "UnauthRoleArn": "arn:aws:iam::604082580205:role/amplify-chatox-dev-161609-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::604082580205:role/amplify-chatox-dev-161609-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-chatox-dev-161609-deployment",
+      "UnauthRoleName": "amplify-chatox-dev-161609-unauthRole",
+      "StackName": "amplify-chatox-dev-161609",
+      "StackId": "arn:aws:cloudformation:us-west-2:604082580205:stack/amplify-chatox-dev-161609/b7254350-8900-11eb-b149-0250cb1d81eb",
+      "AmplifyAppId": "d2wbcnsu17bsug"
+    },
+    "categories": {
+      "auth": {
+        "cognito4ad6fda2": {}
+      },
+      "interactions": {
+        "lex470dff36": {
+          "deploymentBucketName": "amplify-chatox-dev-161609-deployment",
+          "s3Key": "amplify-builds/lex470dff36-71594758596331467a79-build.zip"
+        }
+      }
+    }
+  }
+}
